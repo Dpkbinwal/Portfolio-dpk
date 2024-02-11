@@ -78,15 +78,15 @@ const skills = [{
 
 const services = [{
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Crafting intuitive, visually appealing interfaces with user-centric design principles. Prioritizing user experience through seamless navigation, clear communication, and engaging interactions. Implementing design elements to enhance usability and create meaningful interactions for optimal user satisfaction.",
     },
     {
-        title: "WebSite",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "WebSite Development",
+        description: "Expert website development services tailored to your needs. We specialize in creating responsive, high-performance websites that drive engagement and results. ",
     },
     {
         title: "Android App",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Creating dynamic Android applications that blend functionality with innovation. Leveraging cutting-edge technologies and industry best practices to deliver user-friendly experiences. From concept to deployment, ensuring robust performance, intuitive UI, and seamless integration with Android platforms for unparalleled user engagement.",
     },
 ];
 
@@ -98,7 +98,7 @@ const dataportfolio = [{
     {
         img:  require('./assets/2.png'),
         description: "E-commerce websites facilitate online buying, selling, and transactions securely worldwide.",
-        link: "#",
+        link: "https://github.com/Dpkbinwal/ShopZenith",
     },
     {
         img:  require('./assets/3.png'),
