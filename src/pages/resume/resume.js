@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from '../../assets/resume1.jpg'
+import resume from '../../assets/Pradeepbinwal.jpg'
 import './resume.css'
 import { HelmetProvider,Helmet } from 'react-helmet-async'
 import {meta } from "../../content_option";
