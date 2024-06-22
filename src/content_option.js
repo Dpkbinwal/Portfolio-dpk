@@ -136,6 +136,16 @@ const dataportfolio = [{
     //     description: "Meal finder websites help users discover recipes based on dietary preferences.",
     //     link: "#",
     // },
+    {
+        img:  require('./assets/10.png'),
+        description: "Task Manager App keep track of your tasks, perform CRUD operation ,used MERN Stack",
+        link: "https://github.com/Dpkbinwal/TodoTaskApp",
+    },
+    // {
+    //     img:  require('./assets/10.png'),
+    //     description: "Task Manager App keep track of your tasks, perform CRUD operation ,used MERN Stack",
+    //     link: "https://github.com/Dpkbinwal/TodoTaskApp",
+    // },
 ];
 
 const contactConfig = {

@@ -12,7 +12,7 @@ export const Resume = () => {
           <meta charSet="utf-8" />
           <title> Resume | {meta.title}</title>
           <meta name="description" content={meta.description} />
-        </Helmet>
+      </Helmet>
       <img src={resume}  alt="Resume" width="50%" height="50%"/>
     </div>
     </HelmetProvider>
