@@ -27,7 +27,7 @@ const dataabout = {
 const worktimeline = [{
         jobtitle: "Bachelor of Technology in Computer Science Engineering(CGPA of 8.65)",
         where: "Graphic Era Hill University, Uttarakhand",
-        date: "August 2020- Present",
+        date: "July 2020- July-2024",
     },
     {
         jobtitle: "Intermediate (81.4)",
@@ -50,16 +50,24 @@ const skills = [{
         value: 65,
     },
     {
-        name: "Javascript",
+        name: "MongoDB",
+        value: 80,
+    },
+    {
+        name: "ExpressJs",
         value: 70,
     },
     {
-        name: "React",
-        value: 60,
+        name: "NodeJs",
+        value: 70,
     },
     {
-        name: "Jquery",
-        value: 65,
+        name: "Javascript",
+        value: 80,
+    },
+    {
+        name: "React",
+        value: 75,
     },
     {
         name: "Python",
