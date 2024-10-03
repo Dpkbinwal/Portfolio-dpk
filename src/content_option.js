@@ -22,7 +22,7 @@ const introdata = {
 
 const dataabout = {
     title: "About my self",
-    aboutme: " I am Pradeep Binwal . I am Pursuing B.Tech in Computer Science Engineering from Graphic Era Hill University . I am currently in 4th year of my Academic . I am from Devkali , Nanakmatta , Uttarakhand    . I am  dedicated and committed to becoming a dependable and valuable team member.",
+    aboutme:"I am Pradeep Binwal, a recent graduate with a Bachelor of Technology in Computer Science Engineering from Graphic Era Hill University, Uttarakhand. Originally from Devkali, Nanakmatta, Uttarakhand, I have developed a strong foundation in web development, particularly in the MERN stack, and gained proficiency in languages such as Java, C++, and Python. Throughout my academic journey, I have worked on several impactful projects, honing my problem-solving and collaborative skills. I am eager to leverage my technical expertise and contribute to innovative solutions as I begin my professional career."
 };
 const worktimeline = [{
         jobtitle: "Bachelor of Technology in Computer Science Engineering(CGPA of 8.65)",
@@ -90,7 +90,7 @@ const services = [{
     },
     {
         title: "WebSite Development",
-        description: "Expert website development services tailored to your needs. We specialize in creating responsive, high-performance websites that drive engagement and results. ",
+        description: "We provide top-tier website development services, creating responsive, high-performance websites tailored to your needs. Specializing in modern design and functionality, we deliver visually appealing, fast-loading sites that enhance user experience and drive results. From personal portfolios to business solutions, we build websites that help you achieve your goals and stand out online."
     },
     {
         title: "Android App",
@@ -102,42 +102,50 @@ const dataportfolio = [{
         img: require('./assets/1.png'),
         description: "The dashboard website displays data and metrics in a user-friendly interface..",
         link: "https://github.com/Dpkbinwal/DashBoard",
+        category:'FrontEnd'
     },
     {
         img:  require('./assets/2.png'),
         description: "E-commerce websites facilitate online buying, selling, and transactions securely worldwide.",
         link: "https://github.com/Dpkbinwal/ShopZenith",
+         category:'FullStack'
     },
     {
         img:  require('./assets/3.png'),
         description: "Expense tracker websites monitor, categorize, and analyze personal spending efficiently.",
         link: "https://github.com/Dpkbinwal/Bills-tracker",
+         category:'FrontEnd'
     },
 
     {
         img:  require('./assets/4.png'),
         description: "Gym fitness websites offer workouts, tips, schedules, and community support.",
         link: "https://github.com/Dpkbinwal/Fitness_app",
+         category:'FrontEnd'
     },
     {
         img:  require('./assets/5.png'),
         description: "Password generator websites create secure and randomized passwords for user accounts.",
         link: "https://github.com/Dpkbinwal/Password-Generator",
+         category:'FrontEnd'
     },
     {
         img:  require('./assets/6.png'),
         description: "Memory matching game websites entertain and challenge players with cognitive exercises.",
         link: "https://github.com/Dpkbinwal/Memory-Matching-game",
+         category:'FrontEnd'
     },
     {
         img:  require('./assets/7.png'),
         description: "Sorting algorithm visualizer websites demonstrate sorting processes with interactive graphics.",
         link: "https://github.com/Dpkbinwal/Sorting-alog-visualizer",
+        category:'FrontEnd'
     },
     {
         img:  require('./assets/8.png'),
         description: "File sharing websites allow users to upload, download, and share files securely.",
         link: "#",
+        category:'FullStack'
      },
     // {
     //     img:  require('./assets/9.png'),
@@ -148,6 +156,7 @@ const dataportfolio = [{
         img:  require('./assets/10.png'),
         description: "Task Manager App keep track of your tasks, perform CRUD operation ,used MERN Stack",
         link: "https://github.com/Dpkbinwal/TodoTaskApp",
+         category:'FullStack'
     },
     // {
     //     img:  require('./assets/10.png'),

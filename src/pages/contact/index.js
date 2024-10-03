@@ -43,6 +43,7 @@ export const ContactUs = () => {
             alertmessage: "SUCCESS! ,Thankyou for your messege",
             variant: "success",
             show: true,
+            message: "",
           });
         },
         (error) => {
@@ -74,7 +75,7 @@ export const ContactUs = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">Contact Me</h1>
+            <h2 className=" mb-4">Contact Me</h2>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>

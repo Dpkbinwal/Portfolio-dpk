@@ -8,6 +8,9 @@ import withRouter from "../hooks/withRouter";
 import AppRoutes from "./routes";
 import Headermain from "../header";
 import "./App.css";
+import Splash from "../splash/Splash";
+import SplashScreen from "../splash/Splash";
+import TicTacToe from "../tic-tac-toe/TicTacToe";
 
 function _ScrollToTop(props) {
   const { pathname } = useLocation();
@@ -22,6 +25,7 @@ export default function App() {
   return (
     <Router>
       <ScrollToTop>
+       <SplashScreen />
         <Headermain />
         <AppRoutes />
       </ScrollToTop>

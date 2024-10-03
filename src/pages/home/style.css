@@ -171,6 +171,13 @@ section {
     color: var(--primary-color);
     margin-bottom:5px;
 }
+#button_hai {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    margin-bottom:5px;
+  
+}
+
 
 #button_h:hover {
     color: var(--primary-color)
@@ -238,4 +245,16 @@ section {
 
 .ac_btn:hover {
     box-shadow: 8px 8px 0px var(--text-color), -8px -8px 0px var(--text-color);
+}
+
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@media (max-width:991.98px) {
+    .play {
+        display: none;
+    }
 }

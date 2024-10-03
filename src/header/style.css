@@ -205,3 +205,21 @@
     margin-right: 10px;
     text-decoration: none;
 }
+
+
+
+.open-modal-button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #020405;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .open-modal-button:hover {
+    background-color: #464d55;
+  }
+  
