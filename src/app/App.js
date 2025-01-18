@@ -11,6 +11,7 @@ import "./App.css";
 import Splash from "../splash/Splash";
 import SplashScreen from "../splash/Splash";
 import TicTacToe from "../tic-tac-toe/TicTacToe";
+import CustomCursor from "../components/CustomCursor";
 
 function _ScrollToTop(props) {
   const { pathname } = useLocation();
@@ -25,7 +26,8 @@ export default function App() {
   return (
     <Router>
       <ScrollToTop>
-       <SplashScreen />
+        <CustomCursor />
+        <SplashScreen />
         <Headermain />
         <AppRoutes />
       </ScrollToTop>

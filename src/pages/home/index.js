@@ -61,14 +61,14 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  <Link to="/resume" className="text_2">
-                    <div id="button_p" className="ac_btn btn ">
-                      My Resume
+                  {/* <Link to="" className="text_2"> */}
+                    <a target="blank" href="https://drive.google.com/file/d/1VM6sT0AXcqfNZwtqjRxnpJeju2ms2hAF/view?usp=drive_link" id="button_p" className="ac_btn btn ">
+                     My Resume
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
-                    </div>
-                  </Link>
+                    </a>
+                  {/* </Link> */}
                 </div>
               </div>
             </div>
